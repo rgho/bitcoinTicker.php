@@ -1,11 +1,11 @@
-# Bitcoin Prices
+# Bitcoin Ticker
 
 bitcoinTicker.php. A PHP script that helps you grab the latest bitcoin prices (in USD) from top exchanges.
 
 ## Installation: 
 Include the following line somewhere in your php script.
 ```php
-include_once 'path/to/bitcoin_prices.php';
+include_once 'path/to/bitcoinTicker.php';
 ```
 
 
