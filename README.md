@@ -10,7 +10,7 @@ include_once 'path/to/bitcoin_prices.php';
 
 
 ## Available Functions:
-Each of the following functions returns the USD value of one Bitcoin on the given exchange or price index.
+Each of the following functions returns the latest USD value of one Bitcoin on the given exchange or price index. The functions are named after the excanhges, be careful of exchanges with similar sounding names.
 
 * coindeskBPI()
 * btcChina()
