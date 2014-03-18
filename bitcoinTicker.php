@@ -1,8 +1,5 @@
 <?php
 
-////////////////////////////////////////////
-// DATA SOURCES: TICKERS AND APIS.
-
 function coindeskBPI(){
 	$data = json_decode(getResource('http://api.coindesk.com/v1/bpi/currentprice.json'),'TRUE');
 	return $data['bpi']['USD']['rate'];
@@ -45,10 +42,9 @@ function bitStamp(){
 }
 
 function campBX(){
-#CampBx Gives a 403 Forbidden error if not supplying a user agent string,
+	#CampBx Gives a 403 Forbidden error if not supplying a user agent string,
 	$data = json_decode(getResource('http://campbx.com/api/xticker.php'),'TRUE');
 	return $data['Last Trade'];
-//return "error";
 }
 
 function kraken(){
