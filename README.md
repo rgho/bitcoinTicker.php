@@ -37,3 +37,9 @@ print_r(coindeskBPI());
 ?>
 
 ```
+
+Output:
+```
+621.55
+```
+
